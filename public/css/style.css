@@ -1,11 +1,9 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   font-family: lato;
   text-decoration: none;
-    
 }
 
 body {
@@ -18,16 +16,15 @@ body {
     rgba(255, 255, 255, 1) -100%,
     rgba(123, 127, 236, 1) 100%
   );
-  font-family: "Lato";
-  color: #fff
+  font-family: 'Lato';
+  color: #fff;
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
 .logo {
@@ -35,19 +32,17 @@ body {
   width: 75px;
   margin-top: 40px;
   margin-left: 50px;
-  
 }
 
 .h1 {
-    font-size: 4rem;
-    padding-top: 30px;
-    font-weight: 400;
-    letter-spacing: 0.01em;
+  font-size: 4rem;
+  padding-top: 30px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
 }
 
-
 button {
-  background-color: #2B98EA;
+  background-color: #2b98ea;
   width: 150px;
   border: none;
   border-radius: 4px;
@@ -60,41 +55,35 @@ button {
   margin: 4px 2px;
 }
 
-
-
 .super_woman {
-    padding-top: 30px;
-    height: 300px;
-    width: 200px;
-
+  padding-top: 30px;
+  height: 300px;
+  width: 200px;
 }
 
 .main-container {
-    padding: 40px 40px;
-    flex-direction: column;
-
+  padding: 40px 40px;
+  flex-direction: column;
 }
 
 .hero-text {
-    padding: 30px 30px;
-    line-height: 1.6;
-    font-size: 2em;
-    font-weight: 200;
+  padding: 30px 30px;
+  line-height: 1.6;
+  font-size: 2em;
+  font-weight: 200;
 }
 
 .sub-text {
-    padding: 50px 20px 50px 20px;
-    line-height: 1.4;
-    font-size: 1em;
-    font-weight: 200;
-    text-align: center;
-
+  padding: 50px 20px 50px 20px;
+  line-height: 1.4;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
 }
 
 .statement-1 {
   padding: 40px 20px 40px 20px;
   font-size: 1.5em;
-
 }
 
 .logout a {
@@ -108,11 +97,10 @@ button {
   font-size: x-large;
 }
 
-
 .second-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around; 
+  justify-content: space-around;
   padding: 50px;
   margin: 50px;
 }
@@ -129,37 +117,27 @@ button {
 }
 
 #myChart {
-  display: flex;
-  align-items: center;
   max-width: 750px;
   max-height: 650px;
-  
+  margin: auto;
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
-     button {
-     display: none;
-   }
+  button {
+    display: none;
+  }
 
-   .logo {
-       height: 50px;
-  width: 35px;
+  .logo {
+    height: 50px;
+    width: 35px;
+  }
 
-   }
+  .h1 {
+    font-size: 2rem;
+  }
 
-   .h1 {
-       font-size: 2rem;
-
-   }
-
-   .icon {
-     width: 20px;
-     height: 20px;
-   }
-  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
 }
-
-
